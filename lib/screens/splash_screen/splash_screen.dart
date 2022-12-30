@@ -6,8 +6,11 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:technical_session/screens/mamas%20meals/mamas_meals.dart';
+import 'package:technical_session/screens/menu/menu.dart';
 
 import '../../constants/colors.dart';
+import '../branches/branch_screen.dart';
 import '../home/screen/home.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -38,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-     return Scaffold(
+    return Scaffold(
       // backgroundColor:,
       body: Center(
         child:  Column(
@@ -75,4 +78,3 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
-
